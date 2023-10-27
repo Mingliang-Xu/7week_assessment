@@ -1,0 +1,16 @@
+Results for the extraLargeArray:
+- insert 774.453542 ms
+- append 2.02325 ms
+
+
+Insertion / unshift method increases time significantly when size of array increases. it is a time complexity of O(n) where n is the number of elements in the array. Insertion needs more time of shifting existing elements as size of array grows.
+
+Append / push method looks more scalable than the insertion method, it still exhibits some increase in time as the array size grows. Although the time complexity trend seems reasonably efficient, it is still O(n) with much less time consumming.
+
+
+
+
+
+
+
+
